@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.example">
+	<uses-sdk android:targetSdkVersion="19"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<application android:label="Hello World">
+		<activity android:name="HelloWorld" android:label="Hello World" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+	</application>
+</manifest>
