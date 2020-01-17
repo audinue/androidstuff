@@ -54,6 +54,11 @@ public class HelloWorld extends Activity {
 	public View createBody() {
 		FrameLayout layout = new FrameLayout(this);
 		layout.setId(1);
+		layout.setLayoutParams(new LinearLayout.LayoutParams(
+			LinearLayout.LayoutParams.MATCH_PARENT,
+			LinearLayout.LayoutParams.WRAP_CONTENT,
+			1
+		));
 		return layout;
 	}
 

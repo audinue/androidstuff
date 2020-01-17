@@ -1,0 +1,3 @@
+#!/bin/sh
+
+iwatch -e create,modify -t '\.java$' -c './build' .

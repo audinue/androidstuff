@@ -10,7 +10,7 @@ public class Hello extends Fragment {
 
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle b) {
 		TextView text = new TextView(getActivity());
-		text.setText("This is amazing!");
+		text.setText("Now what??");
 		return text;
 	}
 }
