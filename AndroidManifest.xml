@@ -3,7 +3,7 @@
 	<uses-sdk android:targetSdkVersion="19"/>
 	<uses-permission android:name="android.permission.INTERNET" />
 	<application android:label="Hello World">
-		<activity android:name="HelloWorld" android:label="Hello World" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+		<activity android:name="HelloWorld" android:label="Hello World" android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
 				<category android:name="android.intent.category.LAUNCHER" />
