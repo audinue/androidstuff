@@ -1,0 +1,9 @@
+#! /bin/sh
+
+. ../androidstuff/vars.sh
+
+echo "javac..."
+javac -bootclasspath $ANDROID_JAR -source 7 -target 7 $(find -type f -name '*.java')
+
+echo "dx..."
+dx --dex --output=classes.dex $(find -type f -name '*.class')
